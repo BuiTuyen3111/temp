@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <import type="com.zip.lock.screen.wallpapers.ads.AdPlacement"/>
+        <variable
+            name="adsPlacement"
+            type="java.lang.String" />
+    </data>
+
+    <FrameLayout
+        android:id="@+id/frAd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.leansoft.ads.view.NativeAdViewContainer
+            android:id="@+id/nativeDefault"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            native_ads_placement="@{adsPlacement}"
+            app:ads_layout_loading="@layout/native_full_shimmer_layout"
+            app:ads_layout_loaded="@layout/layout_native_full_dialog"
+            app:ads_layout_error="@layout/native_full_shimmer_layout" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btnClose"
+            android:layout_gravity="end"
+            android:layout_width="24dp"
+            app:cardCornerRadius="100dp"
+            app:cardBackgroundColor="@color/neutral_950"
+            android:layout_margin="16dp"
+            android:layout_height="24dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:visibility="invisible"
+                android:id="@+id/icClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_ad_close" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:text="1"
+                android:layout_gravity="center"
+                android:id="@+id/tvCountdown"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.card.MaterialCardView>
+    </FrameLayout>
+</layout>

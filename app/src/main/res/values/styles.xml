@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AdAttributionView">
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">AD</item>
+    </style>
+
+    <style name="AdAttributionViewNew">
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">Ad</item>
+    </style>
+
+    <style name="TextBase">
+        <item name="android:textColor">@color/neutral_950</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Heading2" parent="TextBase">
+        <item name="android:textSize">40sp</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+    </style>
+
+    <style name="Heading1" parent="TextBase">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+    </style>
+
+    <style name="BodyLargeR" parent="TextBase">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="BodyLargeM" parent="TextBase">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+    </style>
+
+    <style name="BodyMediumR" parent="TextBase">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="BodyMediumM" parent="TextBase">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+    </style>
+
+    <style name="BodyNormalR" parent="TextBase">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="BodyNormalM" parent="TextBase">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+    </style>
+
+    <style name="BodySmallR" parent="TextBase">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="BodySmallM" parent="TextBase">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+    </style>
+
+    <style name="Button1" parent="TextBase">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+    </style>
+
+    <style name="Button2" parent="TextBase">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+    </style>
+
+    <style name="LabelMediumS" parent="TextBase">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+    </style>
+
+    <style name="LabelMediumM" parent="TextBase">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="LabelSmallS" parent="TextBase">
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+    </style>
+
+    <style name="LabelSmallM" parent="TextBase">
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="KeyCircle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+    </style>
+
+    <style name="Switch">
+        <item name="theme">@style/Theme.AppCompat.DayNight.NoActionBar</item>
+        <item name="track">@drawable/switch_track</item>
+        <item name="android:thumb">@drawable/switch_thumb</item>
+    </style>
+
+    <style name="RoundedImageStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item> <!-- chỉnh radius -->
+    </style>
+
+    <style name="ShapeAppearance.CircleImage" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="AppButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingVertical">6dp</item>
+        <item name="android:background">@drawable/bg_btn_cta_100r</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:stateListAnimator">@animator/animator_cta</item>
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+
+    <style name="AdNativeCollapsible">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">1dp</item>
+        <item name="android:minHeight">1px</item>
+        <item name="ads_layout_loading">@layout/layout_empty</item>
+        <item name="ads_random_layouts">@array/native_collap_layouts</item>
+        <item name="ads_layout_loaded">@layout/layout_native_expand</item>
+    </style>
+</resources>

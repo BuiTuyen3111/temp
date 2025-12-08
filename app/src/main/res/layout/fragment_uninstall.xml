@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <import type="com.zip.lock.screen.wallpapers.ads.AdPlacement" />
+    </data>
+
+    <com.zip.lock.screen.wallpapers.widget.SafeAreaView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_color"
+        tools:context="com.nano.art.ai.generator.presentation.ui.retake.RetakePhotoFragment">
+
+        <com.leansoft.ads.view.NativeAdViewContainer
+            android:id="@+id/nativeDefault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:ads_layout_loaded="@layout/layout_native_medium"
+            app:ads_layout_loading="@layout/native_medium_shimmer_layout"
+            app:layout_constraintBottom_toBottomOf="parent" />
+    </com.zip.lock.screen.wallpapers.widget.SafeAreaView>
+</layout>

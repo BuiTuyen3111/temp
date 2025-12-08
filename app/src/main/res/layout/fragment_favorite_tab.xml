@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <com.zip.lock.screen.wallpapers.widget.SafeAreaView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/bg_color">
+
+        <com.zip.lock.screen.wallpapers.widget.HeaderView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:headerText="@string/msg_favorite"
+            android:id="@+id/header"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:headerTextGravity="start" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toBottomOf="@+id/header"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:spanCount="2"
+            android:id="@+id/rcvVideo"
+            android:layout_marginTop="14dp"
+            android:layout_marginHorizontal="10dp"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/emptyView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/img_empty"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/BodySmallR"
+            android:id="@+id/tvEmpty"
+            app:layout_constraintStart_toStartOf="@id/emptyView"
+            app:layout_constraintEnd_toEndOf="@id/emptyView"
+            app:layout_constraintTop_toBottomOf="@id/emptyView"
+            android:text="@string/msg_no_favourite_yet"/>
+    </com.zip.lock.screen.wallpapers.widget.SafeAreaView>
+</layout>

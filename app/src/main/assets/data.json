@@ -1,0 +1,52 @@
+{
+  "data": {
+    "trending": {
+      "videos": [
+        {
+          "title": "smiley-1",
+          "viewCount": "10M",
+          "thumb": "https://cdn.leansoft-ai.com/zip-lock-screen/live_wallpaper/smiley-1.webp",
+          "videoPath": "https://cdn.leansoft-ai.com/zip-lock-screen/live_wallpaper/smiley-1a.mp4"
+        },
+        {
+          "title": "smiley-2",
+          "viewCount": "20M",
+          "thumb": "https://cdn.leansoft-ai.com/zip-lock-screen/live_wallpaper/smiley-2.webp",
+          "videoPath": "https://cdn.leansoft-ai.com/zip-lock-screen/live_wallpaper/smiley-2a.mp4"
+        }
+      ]
+    },
+    "Touch": {
+      "videos": [
+        {
+          "title": "smiley-3",
+          "viewCount": "30M",
+          "thumb": "https://cdn.leansoft-ai.com/zip-lock-screen/live_wallpaper/smiley-3.webp",
+          "videoPath": "https://cdn.leansoft-ai.com/zip-lock-screen/live_wallpaper/smiley-3a.mp4"
+        },
+        {
+          "title": "smiley-4",
+          "viewCount": "40M",
+          "thumb": "https://cdn.leansoft-ai.com/zip-lock-screen/live_wallpaper/smiley-4.webp",
+          "videoPath": "https://cdn.leansoft-ai.com/zip-lock-screen/live_wallpaper/smiley-4a.mp4"
+        }
+      ]
+    },
+    "Exercise": {
+      "videos": [
+        {
+          "title": "smiley-5",
+          "viewCount": "50M",
+          "thumb": "https://cdn.leansoft-ai.com/zip-lock-screen/live_wallpaper/smiley-5.webp",
+          "videoPath": "https://cdn.leansoft-ai.com/zip-lock-screen/live_wallpaper/smiley-5a.mp4"
+        },
+        {
+          "title": "smiley-6",
+          "viewCount": "60M",
+          "thumb": "https://cdn.leansoft-ai.com/zip-lock-screen/live_wallpaper/smiley-6.webp",
+          "videoPath": "https://cdn.leansoft-ai.com/zip-lock-screen/live_wallpaper/smiley-6a.mp4"
+        }
+      ]
+    }
+  }
+}

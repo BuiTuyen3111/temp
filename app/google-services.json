@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "792133898059",
+    "project_id": "zip-lock-screen---leansoft",
+    "storage_bucket": "zip-lock-screen---leansoft.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792133898059:android:3699c50f5fbb35db46e2ce",
+        "android_client_info": {
+          "package_name": "com.zip.lock.screen.wallpapers"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWjzN_sY7XmUk_Xi99ht8cFTOjjGZmVxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
