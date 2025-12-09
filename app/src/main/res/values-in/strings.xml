@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="msg_next">Berikutnya</string>
+    <string name="msg_choose_language">Bahasa</string>
+    <string name="intro_title_1">Latihan Menyenangkan Interaktif</string>
+    <string name="intro_content_1">Gerakkan jari Anda dengan video panduan untuk relaksasi instan.</string>
+    <string name="intro_title_2">Ikuti &amp; Mainkan dengan Animasi</string>
+    <string name="intro_content_2">Geser, ketuk, dan lacak sepanjang adegan interaktif yang seru.</string>
+    <string name="intro_title_3">Interaktif Imersif</string>
+    <string name="intro_content_3">Temukan video paling trending saat ini</string>
+    <string name="msg_started">Mulai</string>
+    <string name="msg_looks_like_you_re_offline">Sepertinya Anda offline. Periksa Wi-Fi atau data seluler Anda!</string>
+    <string name="msg_cancel">Batal</string>
+    <string name="msg_loading">Memuat</string>
+    <string name="msg_no_network_connection">Tidak ada koneksi jaringan</string>
+    <string name="msg_yes">Ya</string>
+    <string name="msg_no">Tidak</string>
+    <string name="msg_do_you_want_to_quit">Apakah Anda ingin keluar dari aplikasi?</string>
+    <string name="msg_setting">Pengaturan</string>
+    <string name="msg_preparing_the_ad">Menyiapkan iklan untuk Anda.\nHarap tunggu…</string>
+    <string name="msg_language">Bahasa</string>
+    <string name="msg_term_amp_condition">Ketentuan Layanan</string>
+    <string name="msg_privacy_policy">Kebijakan Privasi</string>
+    <string name="msg_rating">Beri 5 Bintang</string>
+    <string name="msg_share_app">Bagikan ke teman</string>
+    <string name="msg_home">Beranda</string>
+    <string name="msg_favorite">Favorit</string>
+    <string name="msg_interactive">Interaktif</string>
+    <string name="msg_no_favorite_yet">Belum ada favorit</string>
+    <string name="msg_replay">Putar Ulang</string>
+    <string name="msg_pause">Jeda</string>
+    <string name="msg_play">Putar</string>
+    <string name="msg_rate_us">Nilai Kami</string>
+    <string name="msg_feedback">Masukan</string>
+    <string name="msg_open_setting">Buka Pengaturan</string>
+</resources>

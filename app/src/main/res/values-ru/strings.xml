@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="msg_next">Далее</string>
+    <string name="msg_choose_language">Языки</string>
+    <string name="intro_title_1">Интерактивные весёлые тренировки</string>
+    <string name="intro_content_1">Двигайте пальцем под руководством видео для мгновенного расслабления.</string>
+    <string name="intro_title_2">Следуйте и играйте с анимациями</string>
+    <string name="intro_content_2">Свайпайте, нажимайте и ведите пальцем по увлекательным интерактивным сценам.</string>
+    <string name="intro_title_3">Интерактивное погружение</string>
+    <string name="intro_content_3">Откройте самые популярные видео прямо сейчас</string>
+    <string name="msg_started">Начать</string>
+    <string name="msg_looks_like_you_re_offline">Похоже, вы офлайн. Проверьте Wi-Fi или мобильные данные!</string>
+    <string name="msg_cancel">Отмена</string>
+    <string name="msg_loading">Загрузка</string>
+    <string name="msg_no_network_connection">Нет подключения к сети</string>
+    <string name="msg_yes">Да</string>
+    <string name="msg_no">Нет</string>
+    <string name="msg_do_you_want_to_quit">Вы хотите выйти из приложения?</string>
+    <string name="msg_setting">Настройки</string>
+    <string name="msg_preparing_the_ad">Готовим рекламу для вас.\nПожалуйста, подождите…</string>
+    <string name="msg_language">Язык</string>
+    <string name="msg_term_amp_condition">Условия обслуживания</string>
+    <string name="msg_privacy_policy">Политика конфиденциальности</string>
+    <string name="msg_rating">Поставить 5 звезд</string>
+    <string name="msg_share_app">Поделиться с другом</string>
+    <string name="msg_home">Главная</string>
+    <string name="msg_favorite">Избранное</string>
+    <string name="msg_interactive">Интерактив</string>
+    <string name="msg_no_favorite_yet">Пока нет избранного</string>
+    <string name="msg_replay">Повтор</string>
+    <string name="msg_pause">Пауза</string>
+    <string name="msg_play">Воспроизвести</string>
+    <string name="msg_rate_us">Оцените нас</string>
+    <string name="msg_feedback">Обратная связь</string>
+    <string name="msg_open_setting">Открыть настройки</string>
+</resources>

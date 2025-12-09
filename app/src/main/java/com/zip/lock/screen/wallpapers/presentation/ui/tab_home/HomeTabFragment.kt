@@ -1,24 +1,21 @@
 package com.zip.lock.screen.wallpapers.presentation.ui.tab_home
 
-import android.util.Log
-import androidx.fragment.app.viewModels
 import com.google.android.material.tabs.TabLayout
+import com.google.android.material.tabs.TabLayoutMediator
 import com.zip.lock.screen.wallpapers.databinding.FragmentHomeTabBinding
+import com.zip.lock.screen.wallpapers.ext.EventObserver
 import com.zip.lock.screen.wallpapers.presentation.ui.base.BaseFragment
-import com.zip.lock.screen.wallpapers.presentation.ui.base.NothingViewModel
-import com.zip.lock.screen.wallpapers.presentation.ui.home.HomeVM
-import com.zip.lock.screen.wallpapers.presentation.ui.tab_favorite.FavoriteAdapter
+import com.zip.lock.screen.wallpapers.widget.CustomTab
 import com.zip.lock.screen.wallpapers.widget.CustomTabHome
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class HomeTabFragment : BaseFragment<FragmentHomeTabBinding, NothingViewModel>() {
+class HomeTabFragment : BaseFragment<FragmentHomeTabBinding, HomeTabVM>() {
 
-    private var adapter: FavoriteAdapter? = null
-    private var tabAdapter: TabAdapter? = null
+    private var adapter: TabHomePagerAdapter? = null
 
-    override fun getClassVM(): Class<NothingViewModel> {
-        return NothingViewModel::class.java
+    override fun getClassVM(): Class<HomeTabVM> {
+        return HomeTabVM::class.java
     }
 
     override fun initViewBinding(): FragmentHomeTabBinding {
@@ -26,28 +23,34 @@ class HomeTabFragment : BaseFragment<FragmentHomeTabBinding, NothingViewModel>()
     }
 
     override fun initView() {
-        adapter = FavoriteAdapter({
-
-        }, {
-
-        })
-        mBinding.rcvHome.adapter = adapter
-
-        tabAdapter = TabAdapter {
-            Log.d(TAG, "initView datassss: ${homeVM.map[it] ?: emptyList()}")
-            adapter?.setItems(homeVM.map[it] ?: emptyList())
-        }
-        mBinding.rcvTab.adapter = tabAdapter
-
         fetchData()
         observer()
+        mBinding.vpHome.isUserInputEnabled = false
+        mBinding.tabHome.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener {
+            override fun onTabSelected(tab: TabLayout.Tab?) {
+                val view = tab?.customView as CustomTab
+                view.setItemSelect(true)
+            }
+            override fun onTabUnselected(tab: TabLayout.Tab?) {
+                val view = tab?.customView as CustomTab
+                view.setItemSelect(false)
+            }
+            override fun onTabReselected(tab: TabLayout.Tab?) {}
+        })
     }
 
     private fun observer() {
         homeVM.videos.observe(viewLifecycleOwner) { videos ->
             val data = videos.map { it.name }
-            Log.d(TAG, "initView ----- videos: $videos")
-            tabAdapter?.setItems(data)
+            adapter = TabHomePagerAdapter(this, videos)
+            mBinding.vpHome.adapter = adapter
+            TabLayoutMediator(mBinding.tabHome, mBinding.vpHome) { tab, pos ->
+                if (tab.customView == null) {
+                    val view = CustomTab(requireContext())
+                    tab.customView = view
+                    view.bindData(data[pos])
+                }
+            }.attach()
         }
     }
 

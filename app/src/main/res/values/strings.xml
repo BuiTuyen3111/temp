@@ -15,15 +15,13 @@
     <string name="intro_title_3">Interactive Immersive</string>
     <string name="intro_content_3">Discover the most trending videos right now</string>
     <string name="msg_started">Get Started</string>
-    <string name="msg_permission_required"></string>
-    <string name="msg_looks_like_you_re_offline"></string>
-    <string name="msg_requires_access"></string>
-    <string name="msg_cancel"></string>
-    <string name="msg_loading"></string>
-    <string name="msg_no_network_connection"></string>
-    <string name="msg_yes"></string>
-    <string name="msg_no"></string>
-    <string name="msg_do_you_want_to_quit"></string>
+    <string name="msg_looks_like_you_re_offline">Looks like you\'re offline.Check your Wi-Fi or mobile data!</string>
+    <string name="msg_cancel">Cancel</string>
+    <string name="msg_loading">Loading</string>
+    <string name="msg_no_network_connection">No network connection</string>
+    <string name="msg_yes">Yes</string>
+    <string name="msg_no">No</string>
+    <string name="msg_do_you_want_to_quit">Do you want to quit the app?</string>
     <string name="msg_setting">Settings</string>
     <string name="msg_preparing_the_ad">Preparing the ad for you.\nPlease wait in…</string>
     <string name="msg_language">Language</string>
@@ -34,5 +32,11 @@
     <string name="msg_home">Home</string>
     <string name="msg_favorite">Favorite</string>
     <string name="msg_interactive">Interactive</string>
-    <string name="msg_no_favourite_yet">No favourite yet</string>
+    <string name="msg_no_favorite_yet">No favorite yet</string>
+    <string name="msg_replay">Replay</string>
+    <string name="msg_pause">Pause</string>
+    <string name="msg_play">Play</string>
+    <string name="msg_rate_us">Rate Us</string>
+    <string name="msg_feedback">Feedback</string>
+    <string name="msg_open_setting">Open Setting</string>
 </resources>

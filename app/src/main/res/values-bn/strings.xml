@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="msg_next">পরবর্তী</string>
+    <string name="msg_choose_language">ভাষাসমূহ</string>
+    <string name="intro_title_1">ইন্টারেক্টিভ মজার ওয়ার্কআউট</string>
+    <string name="intro_content_1">তাৎক্ষণিক আরামের জন্য নির্দেশিত ভিডিওর সাথে আঙুল নাড়ুন।</string>
+    <string name="intro_title_2">অ্যানিমেশন অনুসরণ করুন এবং খেলুন</string>
+    <string name="intro_content_2">সুইপ করুন, ট্যাপ করুন, এবং মজার ইন্টারেক্টিভ দৃশ্য অনুসরণ করুন।</string>
+    <string name="intro_title_3">ইন্টারেক্টিভ ইমারসিভ</string>
+    <string name="intro_content_3">এখনই সবচেয়ে জনপ্রিয় ভিডিও আবিষ্কার করুন</string>
+    <string name="msg_started">শুরু করুন</string>
+    <string name="msg_looks_like_you_re_offline">মনে হচ্ছে আপনি অফলাইনে আছেন। আপনার ওয়াই-ফাই বা মোবাইল ডেটা চেক করুন!</string>
+    <string name="msg_cancel">বাতিল</string>
+    <string name="msg_loading">লোড হচ্ছে</string>
+    <string name="msg_no_network_connection">কোন নেটওয়ার্ক সংযোগ নেই</string>
+    <string name="msg_yes">হ্যাঁ</string>
+    <string name="msg_no">না</string>
+    <string name="msg_do_you_want_to_quit">আপনি কি অ্যাপটি বন্ধ করতে চান?</string>
+    <string name="msg_setting">সেটিংস</string>
+    <string name="msg_preparing_the_ad">আপনার জন্য বিজ্ঞাপন প্রস্তুত করা হচ্ছে।\nঅনুগ্রহ করে অপেক্ষা করুন…</string>
+    <string name="msg_language">ভাষা</string>
+    <string name="msg_term_amp_condition">সেবার শর্তাবলী</string>
+    <string name="msg_privacy_policy">গোপনীয়তা নীতি</string>
+    <string name="msg_rating">৫ তারকা রেটিং</string>
+    <string name="msg_share_app">বন্ধুকে শেয়ার করুন</string>
+    <string name="msg_home">হোম</string>
+    <string name="msg_favorite">পছন্দ</string>
+    <string name="msg_interactive">ইন্টারেক্টিভ</string>
+    <string name="msg_no_favorite_yet">এখনো কোনো পছন্দ নেই</string>
+    <string name="msg_replay">পুনরায় চালান</string>
+    <string name="msg_pause">বিরতি</string>
+    <string name="msg_play">চালান</string>
+    <string name="msg_rate_us">আমাদের রেট করুন</string>
+    <string name="msg_feedback">প্রতিক্রিয়া</string>
+    <string name="msg_open_setting">সেটিং খুলুন</string>
+</resources>

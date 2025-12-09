@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="msg_next">Avançar</string>
+    <string name="msg_choose_language">Idiomas</string>
+    <string name="intro_title_1">Treinos Interativos Divertidos</string>
+    <string name="intro_content_1">Mova o dedo com vídeos guiados para relaxamento imediato.</string>
+    <string name="intro_title_2"><![CDATA[Siga e Jogue com Animações]]></string>
+    <string name="intro_content_2">Deslize, toque e siga cenas interativas divertidas.</string>
+    <string name="intro_title_3">Interatividade Imersiva</string>
+    <string name="intro_content_3">Descubra os vídeos mais populares do momento</string>
+    <string name="msg_started">Começar</string>
+    <string name="msg_looks_like_you_re_offline">Parece que você está offline. Verifique seu Wi-Fi ou dados móveis!</string>
+    <string name="msg_cancel">Cancelar</string>
+    <string name="msg_loading">Carregando</string>
+    <string name="msg_no_network_connection">Sem conexão de rede</string>
+    <string name="msg_yes">Sim</string>
+    <string name="msg_no">Não</string>
+    <string name="msg_do_you_want_to_quit">Deseja sair do aplicativo?</string>
+    <string name="msg_setting">Configurações</string>
+    <string name="msg_preparing_the_ad">Preparando o anúncio para você.\nAguarde…</string>
+    <string name="msg_language">Idioma</string>
+    <string name="msg_term_amp_condition">Termos de serviço</string>
+    <string name="msg_privacy_policy">Política de Privacidade</string>
+    <string name="msg_rating">Avaliar com 5 estrelas</string>
+    <string name="msg_share_app">Compartilhar com amigos</string>
+    <string name="msg_home">Início</string>
+    <string name="msg_favorite">Favorito</string>
+    <string name="msg_interactive">Interativo</string>
+    <string name="msg_no_favorite_yet">Nenhum favorito ainda</string>
+    <string name="msg_replay">Repetir</string>
+    <string name="msg_pause">Pausar</string>
+    <string name="msg_play">Reproduzir</string>
+    <string name="msg_rate_us">Avalie-nos</string>
+    <string name="msg_feedback">Feedback</string>
+    <string name="msg_open_setting">Abrir Configurações</string>
+</resources>

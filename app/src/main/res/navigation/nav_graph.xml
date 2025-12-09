@@ -23,6 +23,13 @@
             app:exitAnim="@anim/exit_start"
             app:popEnterAnim="@anim/enter_start"
             app:popExitAnim="@anim/exit_end"/>
+        <action
+            android:id="@+id/action_homeFragment_to_detailFragment"
+            app:destination="@id/detailFragment"
+            app:enterAnim="@anim/enter_end"
+            app:exitAnim="@anim/exit_start"
+            app:popEnterAnim="@anim/enter_start"
+            app:popExitAnim="@anim/exit_end"/>
     </fragment>
     <fragment
         android:id="@+id/testFragment"
@@ -34,4 +41,16 @@
         android:id="@+id/languageSelectedFragment"
         android:name="com.zip.lock.screen.wallpapers.presentation.ui.language.LanguageSelectedFragment"
         android:label="LanguageSelectedFragment" />
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.zip.lock.screen.wallpapers.presentation.ui.detail.DetailFragment"
+        android:label="DetailFragment" >
+        <argument
+            android:name="category"
+            app:argType="string" />
+        <argument
+            android:name="position"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
 </navigation>

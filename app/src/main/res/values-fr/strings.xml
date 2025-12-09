@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="msg_next">Suivant</string>
+    <string name="msg_choose_language">Langues</string>
+    <string name="intro_title_1">Séances d’Exercices Interactifs</string>
+    <string name="intro_content_1">Bougez votre doigt avec des vidéos guidées pour une détente immédiate.</string>
+    <string name="intro_title_2"><![CDATA[Suivez & Jouez avec les Animations]]></string>
+    <string name="intro_content_2">Glissez, touchez et suivez des scènes interactives amusantes.</string>
+    <string name="intro_title_3">Interactivité Immersive</string>
+    <string name="intro_content_3">Découvrez les vidéos les plus tendances du moment</string>
+    <string name="msg_started">Commencer</string>
+    <string name="msg_looks_like_you_re_offline">On dirait que vous êtes hors ligne. Vérifiez votre Wi-Fi ou données mobiles !</string>
+    <string name="msg_cancel">Annuler</string>
+    <string name="msg_loading">Chargement</string>
+    <string name="msg_no_network_connection">Aucune connexion réseau</string>
+    <string name="msg_yes">Oui</string>
+    <string name="msg_no">Non</string>
+    <string name="msg_do_you_want_to_quit">Voulez-vous quitter l’application ?</string>
+    <string name="msg_setting">Paramètres</string>
+    <string name="msg_preparing_the_ad">Préparation de l’annonce pour vous.\nVeuillez patienter…</string>
+    <string name="msg_language">Langue</string>
+    <string name="msg_term_amp_condition">Conditions de service</string>
+    <string name="msg_privacy_policy">Politique de Confidentialité</string>
+    <string name="msg_rating">Noter 5 étoiles</string>
+    <string name="msg_share_app">Partager avec des amis</string>
+    <string name="msg_home">Accueil</string>
+    <string name="msg_favorite">Favori</string>
+    <string name="msg_interactive">Interactif</string>
+    <string name="msg_no_favorite_yet">Aucun favori pour le moment</string>
+    <string name="msg_replay">Rejouer</string>
+    <string name="msg_pause">Pause</string>
+    <string name="msg_play">Lire</string>
+    <string name="msg_rate_us">Évaluez-nous</string>
+    <string name="msg_feedback">Retour</string>
+    <string name="msg_open_setting">Ouvrir les Paramètres</string>
+</resources>

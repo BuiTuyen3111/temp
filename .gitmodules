@@ -1,0 +1,3 @@
+[submodule "android-string-translator"]
+	path = android-string-translator
+	url = https://github.com/sonbuingoc/android-string-translator.git

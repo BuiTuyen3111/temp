@@ -6,14 +6,16 @@ data class VideoDto(
     var title: String,
     val viewCount: String,
     val thumb: String,
-    val videoPath: String
+    val videoPath: String,
+    var isFavorite: Boolean
 ) {
     fun toVideoEntity(): VideoEntity {
         return VideoEntity(
             title = title,
             viewCount = viewCount,
             thumb = thumb,
-            path = videoPath
+            path = videoPath,
+            isFavorite = isFavorite
         )
     }
 }

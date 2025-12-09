@@ -24,55 +24,46 @@ fun ImageView.loadImage(
     cornerRadiusDp: Float = 0f,
     useShimmer: Boolean = false
 ) {
-    val shimmerDrawable = if (useShimmer) createShimmerPlaceholder() else null
     if (url == null) return
-    Glide.with(context).load(url).apply(
-        if (useShimmer) {
-            RequestOptions().placeholder(shimmerDrawable)
-                .diskCacheStrategy(if (noCache) DiskCacheStrategy.NONE else DiskCacheStrategy.ALL)
-                .also { requestOptions ->
-                    val transformations = mutableListOf<Transformation<Bitmap>>()
-                    if (centerCrop)
-                        transformations.add(CenterCrop())
-                    if (cornerRadiusDp > 0) {
-                        val radiusInPixel = context.dpToPx(cornerRadiusDp)
-                        transformations.add(RoundedCorners(radiusInPixel))
-                    }
-                    if (transformations.isNotEmpty())
-                        requestOptions.transform(*transformations.toTypedArray())
-                }
-        } else {
-            RequestOptions().placeholder(placeholder)
-                .diskCacheStrategy(if (noCache) DiskCacheStrategy.NONE else DiskCacheStrategy.ALL)
-                .also { requestOptions ->
-                    val transformations = mutableListOf<Transformation<Bitmap>>()
-                    if (centerCrop)
-                        transformations.add(CenterCrop())
-                    if (cornerRadiusDp > 0) {
-                        val radiusInPixel = context.dpToPx(cornerRadiusDp)
-                        transformations.add(RoundedCorners(radiusInPixel))
-                    }
-                    if (transformations.isNotEmpty())
-                        requestOptions.transform(*transformations.toTypedArray())
-                }
+
+    val requestOptions = RequestOptions()
+        .diskCacheStrategy(if (noCache) DiskCacheStrategy.NONE else DiskCacheStrategy.ALL)
+        .also { opts ->
+            val transforms = ArrayList<Transformation<Bitmap>>(2)
+            if (centerCrop) transforms.add(CenterCrop())
+            if (cornerRadiusDp > 0) {
+                val radiusPx = context.dpToPx(cornerRadiusDp)
+                transforms.add(RoundedCorners(radiusPx))
+            }
+            if (transforms.isNotEmpty()) opts.transform(*transforms.toTypedArray())
         }
-    ).into(this)
+
+    val request = Glide.with(context)
+        .load(url)
+        .apply(requestOptions)
+
+    if (useShimmer) {
+        request.placeholder(shimmerPlaceholder)
+    } else {
+        request.placeholder(placeholder)
+    }
+
+    request.into(this)
 }
 
-fun createShimmerPlaceholder(): ShimmerDrawable {
-    val shimmer = Shimmer.AlphaHighlightBuilder()
-        .setDuration(1000)
-        .setBaseAlpha(0.7f)
-        .setHighlightAlpha(1.0f)
-        .setDirection(Shimmer.Direction.LEFT_TO_RIGHT)
-        .setAutoStart(true)
-        .build()
-
-    val shimmerDrawable = ShimmerDrawable().apply {
+private val shimmerPlaceholder: ShimmerDrawable by lazy {
+    ShimmerDrawable().apply {
+        val shimmer = Shimmer.AlphaHighlightBuilder()
+            .setDuration(1000)
+            .setBaseAlpha(0.7f)
+            .setHighlightAlpha(1.0f)
+            .setDirection(Shimmer.Direction.LEFT_TO_RIGHT)
+            .setAutoStart(true)
+            .build()
         setShimmer(shimmer)
     }
-    return shimmerDrawable
 }
+
 
 fun ImageView.setTintColorRes(context: Context, colorResId: Int) {
     this.imageTintList = ColorStateList.valueOf(ContextCompat.getColor(context, colorResId))

@@ -1,0 +1,42 @@
+package com.zip.lock.screen.wallpapers.widget
+
+import com.zip.lock.screen.wallpapers.R
+import android.content.Context
+import android.util.AttributeSet
+import android.widget.FrameLayout
+import android.widget.LinearLayout
+import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import com.mbridge.msdk.out.Frame
+
+class SafeAreaFrameView @JvmOverloads constructor(
+    context: Context,
+    attrs: AttributeSet? = null,
+    defStyleAttr: Int = 0
+) : FrameLayout(context, attrs, defStyleAttr) {
+
+    private var enableSafeTop: Boolean = true
+    private var enableSafeBottom: Boolean = true
+
+    init {
+        context.theme.obtainStyledAttributes(attrs, R.styleable.SafeAreaView, 0, 0).apply {
+            try {
+                enableSafeTop = getBoolean(R.styleable.SafeAreaView_enableSafeTop, true)
+                enableSafeBottom = getBoolean(R.styleable.SafeAreaView_enableSafeBottom, true)
+            } finally {
+                recycle()
+            }
+        }
+
+        ViewCompat.setOnApplyWindowInsetsListener(this) { _, insets ->
+            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+
+            val topPadding = if (enableSafeTop) systemBars.top else 0
+            val bottomPadding = if (enableSafeBottom) systemBars.bottom else 0
+
+            setPadding(systemBars.left, topPadding, systemBars.right, bottomPadding)
+            insets
+        }
+    }
+}

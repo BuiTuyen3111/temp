@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="msg_next">التالي</string>
+    <string name="msg_choose_language">اللغات</string>
+    <string name="intro_title_1">تمارين ممتعة تفاعلية</string>
+    <string name="intro_content_1">حرك إصبعك مع فيديوهات إرشادية للاسترخاء الفوري.</string>
+    <string name="intro_title_2">اتبع ولعب مع الرسوم المتحركة</string>
+    <string name="intro_content_2">اسحب، انقر، وتتبع المشاهد التفاعلية الممتعة.</string>
+    <string name="intro_title_3">تجربة تفاعلية غامرة</string>
+    <string name="intro_content_3">اكتشف أشهر الفيديوهات الآن</string>
+    <string name="msg_started">ابدأ</string>
+    <string name="msg_looks_like_you_re_offline">يبدو أنك غير متصل. تحقق من الواي فاي أو بيانات الهاتف!</string>
+    <string name="msg_cancel">إلغاء</string>
+    <string name="msg_loading">جارٍ التحميل</string>
+    <string name="msg_no_network_connection">لا يوجد اتصال بالشبكة</string>
+    <string name="msg_yes">نعم</string>
+    <string name="msg_no">لا</string>
+    <string name="msg_do_you_want_to_quit">هل تريد الخروج من التطبيق؟</string>
+    <string name="msg_setting">الإعدادات</string>
+    <string name="msg_preparing_the_ad">نقوم بتحضير الإعلان لك.\nيرجى الانتظار…</string>
+    <string name="msg_language">اللغة</string>
+    <string name="msg_term_amp_condition">شروط الخدمة</string>
+    <string name="msg_privacy_policy">سياسة الخصوصية</string>
+    <string name="msg_rating">تقييم 5 نجوم</string>
+    <string name="msg_share_app">مشاركة مع صديق</string>
+    <string name="msg_home">الرئيسية</string>
+    <string name="msg_favorite">المفضلة</string>
+    <string name="msg_interactive">تفاعلي</string>
+    <string name="msg_no_favorite_yet">لا توجد مفضلات بعد</string>
+    <string name="msg_replay">إعادة التشغيل</string>
+    <string name="msg_pause">إيقاف مؤقت</string>
+    <string name="msg_play">تشغيل</string>
+    <string name="msg_rate_us">قيّمنا</string>
+    <string name="msg_feedback">ملاحظات</string>
+    <string name="msg_open_setting">افتح الإعدادات</string>
+</resources>

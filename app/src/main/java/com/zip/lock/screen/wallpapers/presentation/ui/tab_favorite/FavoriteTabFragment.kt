@@ -7,7 +7,7 @@ import com.zip.lock.screen.wallpapers.databinding.FragmentFavoriteTabBinding
 import com.zip.lock.screen.wallpapers.ext.gone
 import com.zip.lock.screen.wallpapers.ext.visible
 import com.zip.lock.screen.wallpapers.presentation.ui.base.BaseFragment
-import com.zip.lock.screen.wallpapers.presentation.ui.base.NothingViewModel
+import com.zip.lock.screen.wallpapers.presentation.ui.home.HomeFragmentDirections
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 
@@ -25,11 +25,15 @@ class FavoriteTabFragment : BaseFragment<FragmentFavoriteTabBinding, FavoriteVM>
     }
 
     override fun initView() {
-        adapter = FavoriteAdapter ({
-            //navigateDetail
-        }, {
-
-        })
+        adapter = FavoriteAdapter (
+            viewModel = homeVM,
+            onItemClick = {
+                navigationViewModel.navigate(HomeFragmentDirections.actionHomeFragmentToDetailFragment( "favorite", position = it))
+            },
+            onFavoriteClick = { video, isFavorite ->
+                homeVM.toggleFavorite(video, isFavorite)
+            }
+        )
         mBinding.rcvVideo.adapter = adapter
         observer()
     }
@@ -37,8 +41,7 @@ class FavoriteTabFragment : BaseFragment<FragmentFavoriteTabBinding, FavoriteVM>
     private fun observer() {
         viewLifecycleOwner.lifecycleScope.launch {
             viewLifecycleOwner.repeatOnLifecycle(Lifecycle.State.STARTED) {
-                mViewModel.videoListFlow.collect { list ->
-                    // update UI
+                homeVM.favoriteList.collect { list ->
                     adapter?.setItems(list)
                     if (list.isEmpty()) {
                         mBinding.rcvVideo.gone()

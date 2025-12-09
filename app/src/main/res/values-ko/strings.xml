@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Interactive Immersive WarmUp</string>
+    <string name="ads_application_id" translatable="false">ca-app-pub-5889155949011891~8243592491</string>
+    <string name="facebook_app_id" translatable="false">4158836507725189</string>
+    <string name="facebook_client_token" translatable="false">8e7a6bad724ea43845028fc630f452a2</string>
+
+    <string name="msg_next">다음</string>
+    <string name="msg_choose_language">언어</string>
+    <string name="intro_title_1">인터랙티브 재미 운동</string>
+    <string name="intro_content_1">즉각적인 휴식을 위해 안내 영상과 함께 손가락을 움직이세요.</string>
+    <string name="intro_title_2"><![CDATA[애니메이션과 함께 따라하고 플레이하세요]]></string>
+    <string name="intro_content_2">스와이프, 탭하며 재미있는 인터랙티브 장면을 따라가세요.</string>
+    <string name="intro_title_3">인터랙티브 몰입형</string>
+    <string name="intro_content_3">지금 가장 인기 있는 영상을 만나보세요</string>
+    <string name="msg_started">시작하기</string>
+    <string name="msg_looks_like_you_re_offline">오프라인 상태입니다. Wi-Fi 또는 모바일 데이터를 확인하세요!</string>
+    <string name="msg_cancel">취소</string>
+    <string name="msg_loading">로드 중</string>
+    <string name="msg_no_network_connection">네트워크 연결 없음</string>
+    <string name="msg_yes">예</string>
+    <string name="msg_no">아니요</string>
+    <string name="msg_do_you_want_to_quit">앱을 종료하시겠습니까?</string>
+    <string name="msg_setting">설정</string>
+    <string name="msg_preparing_the_ad">광고를 준비 중입니다.\n잠시만 기다려 주세요…</string>
+    <string name="msg_language">언어</string>
+    <string name="msg_term_amp_condition">서비스 약관</string>
+    <string name="msg_privacy_policy">개인정보 처리방침</string>
+    <string name="msg_rating">별 5개 평가하기</string>
+    <string name="msg_share_app">친구와 공유하기</string>
+    <string name="msg_home">홈</string>
+    <string name="msg_favorite">즐겨찾기</string>
+    <string name="msg_interactive">인터랙티브</string>
+    <string name="msg_no_favorite_yet">즐겨찾기가 없습니다</string>
+    <string name="msg_replay">다시 재생</string>
+    <string name="msg_pause">일시정지</string>
+    <string name="msg_play">재생</string>
+    <string name="msg_rate_us">평가하기</string>
+    <string name="msg_feedback">피드백</string>
+    <string name="msg_open_setting">설정 열기</string>
+</resources>

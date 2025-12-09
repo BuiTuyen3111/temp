@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="msg_next">下一步</string>
+    <string name="msg_choose_language">语言</string>
+    <string name="intro_title_1">互动趣味锻炼</string>
+    <string name="intro_content_1">跟随引导视频移动手指，立即放松身心。</string>
+    <string name="intro_title_2">跟随动画一起互动</string>
+    <string name="intro_content_2">滑动、点击并描绘有趣的互动场景。</string>
+    <string name="intro_title_3">沉浸式互动</string>
+    <string name="intro_content_3">发现当下最热门的视频</string>
+    <string name="msg_started">开始</string>
+    <string name="msg_looks_like_you_re_offline">看起来你已离线。请检查 Wi-Fi 或移动数据！</string>
+    <string name="msg_cancel">取消</string>
+    <string name="msg_loading">加载中</string>
+    <string name="msg_no_network_connection">没有网络连接</string>
+    <string name="msg_yes">是</string>
+    <string name="msg_no">否</string>
+    <string name="msg_do_you_want_to_quit">你要退出应用吗？</string>
+    <string name="msg_setting">设置</string>
+    <string name="msg_preparing_the_ad">正在为你准备广告。\n请稍候…</string>
+    <string name="msg_language">语言</string>
+    <string name="msg_term_amp_condition">服务条款</string>
+    <string name="msg_privacy_policy">隐私政策</string>
+    <string name="msg_rating">评分 5 星</string>
+    <string name="msg_share_app">分享给朋友</string>
+    <string name="msg_home">首页</string>
+    <string name="msg_favorite">收藏</string>
+    <string name="msg_interactive">互动</string>
+    <string name="msg_no_favorite_yet">暂无收藏</string>
+    <string name="msg_replay">重播</string>
+    <string name="msg_pause">暂停</string>
+    <string name="msg_play">播放</string>
+    <string name="msg_rate_us">给我们评分</string>
+    <string name="msg_feedback">反馈</string>
+    <string name="msg_open_setting">打开设置</string>
+</resources>

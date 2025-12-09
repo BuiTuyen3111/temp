@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="msg_next">Tiếp theo</string>
+    <string name="msg_choose_language">Ngôn ngữ</string>
+    <string name="intro_title_1">Bài tập thư giãn tương tác</string>
+    <string name="intro_content_1">Di chuyển ngón tay theo video hướng dẫn để thư giãn ngay lập tức.</string>
+    <string name="intro_title_2">Làm theo &amp; Tương tác với hoạt ảnh</string>
+    <string name="intro_content_2">Vuốt, chạm và vẽ theo các cảnh tương tác thú vị.</string>
+    <string name="intro_title_3">Tương tác sống động</string>
+    <string name="intro_content_3">Khám phá những video đang thịnh hành nhất hiện nay</string>
+    <string name="msg_started">Bắt đầu</string>
+    <string name="msg_looks_like_you_re_offline">Có vẻ bạn đang ngoại tuyến. Hãy kiểm tra Wi-Fi hoặc dữ liệu di động!</string>
+    <string name="msg_cancel">Hủy</string>
+    <string name="msg_loading">Đang tải</string>
+    <string name="msg_no_network_connection">Không có kết nối mạng</string>
+    <string name="msg_yes">Có</string>
+    <string name="msg_no">Không</string>
+    <string name="msg_do_you_want_to_quit">Bạn có muốn thoát ứng dụng?</string>
+    <string name="msg_setting">Cài đặt</string>
+    <string name="msg_preparing_the_ad">Đang chuẩn bị quảng cáo cho bạn.\nVui lòng chờ…</string>
+    <string name="msg_language">Ngôn ngữ</string>
+    <string name="msg_term_amp_condition">Điều khoản dịch vụ</string>
+    <string name="msg_privacy_policy">Chính sách quyền riêng tư</string>
+    <string name="msg_rating">Đánh giá 5 sao</string>
+    <string name="msg_share_app">Chia sẻ với bạn bè</string>
+    <string name="msg_home">Trang chủ</string>
+    <string name="msg_favorite">Yêu thích</string>
+    <string name="msg_interactive">Tương tác</string>
+    <string name="msg_no_favorite_yet">Chưa có mục yêu thích</string>
+    <string name="msg_replay">Phát lại</string>
+    <string name="msg_pause">Tạm dừng</string>
+    <string name="msg_play">Phát</string>
+    <string name="msg_rate_us">Đánh giá</string>
+    <string name="msg_feedback">Phản hồi</string>
+    <string name="msg_open_setting">Mở cài đặt</string>
+</resources>

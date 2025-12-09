@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="msg_next">Siguiente</string>
+    <string name="msg_choose_language">Idiomas</string>
+    <string name="intro_title_1">Entrenamientos Interactivos y Divertidos</string>
+    <string name="intro_content_1">Mueve tu dedo con videos guiados para una relajación instantánea.</string>
+    <string name="intro_title_2"><![CDATA[Sigue y Juega con Animaciones]]></string>
+    <string name="intro_content_2">Desliza, toca y sigue escenas interactivas divertidas.</string>
+    <string name="intro_title_3">Interactividad Inmersiva</string>
+    <string name="intro_content_3">Descubre los videos más populares del momento</string>
+    <string name="msg_started">Comenzar</string>
+    <string name="msg_looks_like_you_re_offline">Parece que estás sin conexión. ¡Revisa tu Wi-Fi o datos móviles!</string>
+    <string name="msg_cancel">Cancelar</string>
+    <string name="msg_loading">Cargando</string>
+    <string name="msg_no_network_connection">Sin conexión de red</string>
+    <string name="msg_yes">Sí</string>
+    <string name="msg_no">No</string>
+    <string name="msg_do_you_want_to_quit">¿Deseas salir de la aplicación?</string>
+    <string name="msg_setting">Configuración</string>
+    <string name="msg_preparing_the_ad">Preparando el anuncio para ti.\nPor favor, espera…</string>
+    <string name="msg_language">Idioma</string>
+    <string name="msg_term_amp_condition">Términos del servicio</string>
+    <string name="msg_privacy_policy">Política de Privacidad</string>
+    <string name="msg_rating">Calificar con 5 estrellas</string>
+    <string name="msg_share_app">Compartir con amigos</string>
+    <string name="msg_home">Inicio</string>
+    <string name="msg_favorite">Favorito</string>
+    <string name="msg_interactive">Interactivo</string>
+    <string name="msg_no_favorite_yet">Aún no hay favoritos</string>
+    <string name="msg_replay">Repetir</string>
+    <string name="msg_pause">Pausar</string>
+    <string name="msg_play">Reproducir</string>
+    <string name="msg_rate_us">Califícanos</string>
+    <string name="msg_feedback">Comentarios</string>
+    <string name="msg_open_setting">Abrir Configuración</string>
+</resources>

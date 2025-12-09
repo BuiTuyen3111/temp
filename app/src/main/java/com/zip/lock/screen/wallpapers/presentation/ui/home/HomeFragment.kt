@@ -23,7 +23,14 @@ class HomeFragment : BaseFragment<FragmentHomeBinding, HomeVM>() {
         val adapter = HomePagerAdapter(this)
 
         mBinding.viewPager.adapter = adapter
-        mBinding.viewPager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {})
+        mBinding.viewPager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
+            override fun onPageSelected(position: Int) {
+                super.onPageSelected(position)
+                if (position == 0) {
+                    homeVM.updateHomeTabSelected()
+                }
+            }
+        })
         mBinding.viewPager.isUserInputEnabled = false
 
         mBinding.tabLayout.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener {

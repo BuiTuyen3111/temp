@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Interactive Immersive WarmUp</string>
+    <string name="ads_application_id" translatable="false">ca-app-pub-5889155949011891~8243592491</string>
+    <string name="facebook_app_id" translatable="false">4158836507725189</string>
+    <string name="facebook_client_token" translatable="false">8e7a6bad724ea43845028fc630f452a2</string>
+
+    <string name="msg_next">Volgende</string>
+    <string name="msg_choose_language">Talen</string>
+    <string name="intro_title_1">Interactieve Leuke Workouts</string>
+    <string name="intro_content_1">Beweeg je vinger met begeleide video’s voor directe ontspanning.</string>
+    <string name="intro_title_2"><![CDATA[Volg en Speel met Animaties]]></string>
+    <string name="intro_content_2">Veeg, tik en volg leuke interactieve scènes.</string>
+    <string name="intro_title_3">Interactieve Immersive</string>
+    <string name="intro_content_3">Ontdek de populairste video\'s van dit moment</string>
+    <string name="msg_started">Starten</string>
+    <string name="msg_looks_like_you_re_offline">Het lijkt erop dat je offline bent. Controleer je Wi-Fi of mobiele data!</string>
+    <string name="msg_cancel">Annuleren</string>
+    <string name="msg_loading">Laden</string>
+    <string name="msg_no_network_connection">Geen netwerkverbinding</string>
+    <string name="msg_yes">Ja</string>
+    <string name="msg_no">Nee</string>
+    <string name="msg_do_you_want_to_quit">Wil je de app afsluiten?</string>
+    <string name="msg_setting">Instellingen</string>
+    <string name="msg_preparing_the_ad">De advertentie wordt voorbereid.\nEven geduld…</string>
+    <string name="msg_language">Taal</string>
+    <string name="msg_term_amp_condition">Servicevoorwaarden</string>
+    <string name="msg_privacy_policy">Privacybeleid</string>
+    <string name="msg_rating">5 sterren geven</string>
+    <string name="msg_share_app">Delen met vrienden</string>
+    <string name="msg_home">Home</string>
+    <string name="msg_favorite">Favoriet</string>
+    <string name="msg_interactive">Interactief</string>
+    <string name="msg_no_favorite_yet">Nog geen favorieten</string>
+    <string name="msg_replay">Opnieuw afspelen</string>
+    <string name="msg_pause">Pauzeren</string>
+    <string name="msg_play">Afspelen</string>
+    <string name="msg_rate_us">Beoordeel ons</string>
+    <string name="msg_feedback">Feedback</string>
+    <string name="msg_open_setting">Instellingen openen</string>
+</resources>
