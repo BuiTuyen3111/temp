@@ -9,6 +9,7 @@ import com.zip.lock.screen.wallpapers.presentation.ui.base.BaseFragment
 import com.zip.lock.screen.wallpapers.presentation.ui.language.LanguageImpl.Companion.getAllLanguageList
 import com.zip.lock.screen.wallpapers.utils.AppLanguageUtils
 import com.zip.lock.screen.wallpapers.ext.findNavControllerSafely
+import com.zip.lock.screen.wallpapers.ext.visible
 import com.zip.lock.screen.wallpapers.utils.safeOnClickListener
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -26,17 +27,16 @@ class LanguageSelectedFragment : BaseFragment<FragmentLanguageBinding, LanguageV
     }
 
     override fun initView() {
+        mBinding.btnNext.visible()
         val adapter = LanguageAdapter(onItemClick = { item ->
-
-        }, selectedLanguageCode = mViewModel.getSelectedLanguage()?.code ?: "en")
+            mViewModel.setLanguageModel(item)
+        }, AppLanguageUtils.getLanguageModel(requireContext())?.code ?: "en")
         adapter.setItems(getAllLanguageList())
+
         AppLanguageUtils.getLanguageModel(requireContext())?.let {
             mViewModel.setLanguageModel(it)
         }
         mBinding.recyclerView.adapter = adapter
-        mBinding.btnBack.safeOnClickListener {
-            findNavControllerSafely()?.navigateUp()
-        }
         mBinding.btnNext.safeOnClickListener {
             if (mViewModel.getLanguageModel() == null) return@safeOnClickListener
             nextScreen()
@@ -59,6 +59,5 @@ class LanguageSelectedFragment : BaseFragment<FragmentLanguageBinding, LanguageV
 
     override fun onDestroy() {
         super.onDestroy()
-        AdManager.instance.destroyNativeAd(AdPlacement.NATIVE_CLICK.key)
     }
 }

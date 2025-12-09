@@ -46,5 +46,14 @@ class LanguageAdapter(
         notifyDataSetChanged()
     }
 
+    fun setSelectedPosition(pos: Int) {
+        if (pos > -1) {
+            if (this.pos == pos) return
+            this.pos = pos
+
+            notifyItemChanged(this.pos, LanguageModel::class.java)
+        }
+    }
+
     inner class ViewHolder(val binding: ItemLanguageBinding) : RecyclerView.ViewHolder(binding.root)
 }
