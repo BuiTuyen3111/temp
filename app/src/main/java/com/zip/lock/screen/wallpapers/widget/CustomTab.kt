@@ -23,9 +23,9 @@ class CustomTab @JvmOverloads constructor(
 
     fun setItemSelect(isSelect: Boolean) {
         val typeface = if (isSelect) {
-            ResourcesCompat.getFont(context, R.font.poppins_semi_bold)
+            ResourcesCompat.getFont(context, R.font.inter_semi_bold)
         } else {
-            ResourcesCompat.getFont(context, R.font.poppins_regular)
+            ResourcesCompat.getFont(context, R.font.inter_regular)
         }
         mBinding.tvTab.typeface = typeface
         mBinding.tvTab.isSelected = isSelect

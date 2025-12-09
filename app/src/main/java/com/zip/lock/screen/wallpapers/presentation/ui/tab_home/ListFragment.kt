@@ -1,6 +1,5 @@
 package com.zip.lock.screen.wallpapers.presentation.ui.tab_home
 
-import androidx.core.os.bundleOf
 import com.zip.lock.screen.wallpapers.data.source.remote.cloud.dto.CategoryItem
 import com.zip.lock.screen.wallpapers.databinding.FragmentListBinding
 import com.zip.lock.screen.wallpapers.presentation.ui.base.BaseFragment
@@ -38,6 +37,9 @@ class ListFragment: BaseFragment<FragmentListBinding, NothingViewModel>() {
                 homeVM.toggleFavorite(video, isFavorite)
             }
         )
+        homeVM.homeTabSelected.observe(viewLifecycleOwner) {
+            adapter?.setItems(categoryItem?.videos?.map { it.toVideoEntity() } ?: emptyList())
+        }
         mBinding.rcvHome.adapter = adapter
         adapter?.setItems(categoryItem?.videos?.map { it.toVideoEntity() } ?: emptyList())
     }
