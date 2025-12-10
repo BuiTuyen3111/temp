@@ -1,4 +1,4 @@
-package com.zip.lock.screen.wallpapers
+package com.interactive.fitness
 
 import org.junit.Test
 

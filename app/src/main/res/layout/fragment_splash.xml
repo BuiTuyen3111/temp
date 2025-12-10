@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
-        <import type="com.zip.lock.screen.wallpapers.ads.AdPlacement"/>
+        <import type="com.interactive.fitness.ads.AdPlacement"/>
         <variable
             name="adPlacement"
             type="java.lang.String" />
@@ -15,7 +15,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:background="@color/bg_color"
-        tools:context="com.zip.lock.screen.wallpapers.presentation.ui.splash.SplashFragment">
+        tools:context="com.interactive.fitness.presentation.ui.splash.SplashFragment">
         
         <View
             android:layout_width="1dp"
@@ -27,7 +27,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"/>
 
-        <com.zip.lock.screen.wallpapers.widget.RoundedImageView
+        <com.interactive.fitness.widget.RoundedImageView
             android:id="@+id/roundedImageView"
             android:layout_width="140dp"
             android:layout_height="140dp"

@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "792133898059",
-    "project_id": "zip-lock-screen---leansoft",
-    "storage_bucket": "zip-lock-screen---leansoft.firebasestorage.app"
+    "project_number": "1087535952404",
+    "project_id": "ls39-interactive-warmup",
+    "storage_bucket": "ls39-interactive-warmup.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:792133898059:android:3699c50f5fbb35db46e2ce",
+        "mobilesdk_app_id": "1:1087535952404:android:03c6fd741557ba073c2d01",
         "android_client_info": {
-          "package_name": "com.zip.lock.screen.wallpapers"
+          "package_name": "com.interactive.fitness"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAWjzN_sY7XmUk_Xi99ht8cFTOjjGZmVxE"
+          "current_key": "AIzaSyDm75O-aLf_jXOXQGsa5cHijDV9vK2FBD4"
         }
       ],
       "services": {

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
-        <import type="com.zip.lock.screen.wallpapers.ads.AdPlacement"/>
+        <import type="com.interactive.fitness.ads.AdPlacement"/>
         <variable
             name="adsPlacement"
             type="java.lang.String" />

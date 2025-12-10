@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-        <import type="com.zip.lock.screen.wallpapers.ads.AdPlacement"/>
+        <import type="com.interactive.fitness.ads.AdPlacement"/>
         <import type="android.view.View"/>
         <variable
             name="showAds"
@@ -14,7 +14,7 @@
             type="java.lang.String" />
     </data>
 
-    <com.zip.lock.screen.wallpapers.widget.SafeAreaView
+    <com.interactive.fitness.widget.SafeAreaView
         android:layout_width="match_parent"
         android:background="@color/bg_color"
         android:layout_height="match_parent">
@@ -74,5 +74,5 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:ads_layout_loading="@layout/native_medium_shimmer_layout"
             app:ads_layout_loaded="@layout/layout_native_medium_onboard" />
-    </com.zip.lock.screen.wallpapers.widget.SafeAreaView>
+    </com.interactive.fitness.widget.SafeAreaView>
 </layout>

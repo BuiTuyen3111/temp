@@ -22,22 +22,22 @@ val keyProperties = Properties().apply {
 }
 
 android {
-    namespace = "com.zip.lock.screen.wallpapers"
+    namespace = "com.interactive.fitness"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.zip.lock.screen.wallpapers"
+        applicationId = "com.interactive.fitness"
         minSdk = 28
         targetSdk = 35
-        versionCode = 22
-        versionName = "1.2.1"
+        versionCode = 1
+        versionName = "1.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
         val dateFormat = SimpleDateFormat("ddMMyyyy_HHmm").format(Date())
         setProperty(
             "archivesBaseName",
-            "Zipper_Lock$versionName($versionCode)_$dateFormat"
+            "Interactive_Fitness$versionName($versionCode)_$dateFormat"
         )
     }
     signingConfigs {

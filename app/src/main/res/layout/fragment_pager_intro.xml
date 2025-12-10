@@ -5,7 +5,7 @@
 
     <data>
 
-        <import type="com.zip.lock.screen.wallpapers.ads.AdPlacement" />
+        <import type="com.interactive.fitness.ads.AdPlacement" />
 
         <variable
             name="adsNativeOnboarding"
@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/white"
-        tools:context="com.zip.lock.screen.wallpapers.ui.intro.PagerIntroFragment">
+        tools:context="com.interactive.fitness.ui.intro.PagerIntroFragment">
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/image"

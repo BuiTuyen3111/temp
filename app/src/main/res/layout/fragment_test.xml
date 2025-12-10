@@ -5,7 +5,7 @@
     android:background="@color/blue"
     android:layout_height="match_parent">
 
-<!--    <com.zip.lock.screen.wallpapers.widget.MyView-->
+<!--    <com.interactive.fitness.MyView-->
 <!--        android:layout_width="wrap_content"-->
 <!--        android:layout_gravity="center"-->
 <!--        android:layout_height="wrap_content"/>-->

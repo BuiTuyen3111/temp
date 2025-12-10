@@ -31,5 +31,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Zipper"
+rootProject.name = "InteractiveFitness"
 include(":app")

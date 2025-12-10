@@ -8,7 +8,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28"/>
 
     <application
-        android:name=".App"
+        android:name="com.interactive.fitness.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -17,7 +17,7 @@
         android:theme="@style/Theme.AILean"
         tools:targetApi="31">
         <activity
-            android:name="com.zip.lock.screen.wallpapers.presentation.ui.activity.MainActivity"
+            android:name="com.interactive.fitness.presentation.ui.activity.MainActivity"
             android:configChanges="uiMode|orientation|screenSize"
             android:windowSoftInputMode="adjustPan"
             android:screenOrientation="portrait"
@@ -28,14 +28,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.zip.lock.screen.wallpapers.presentation.ui.activity.HomeActivity"
+        <activity android:name="com.interactive.fitness.presentation.ui.activity.HomeActivity"
             android:configChanges="uiMode|orientation|screenSize"
             android:windowSoftInputMode="adjustPan"
             android:screenOrientation="portrait"
             android:exported="true"/>
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.zip.lock.screen.wallpapers.provider"
+            android:authorities="com.interactive.fitness.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

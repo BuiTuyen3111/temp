@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-        <import type="com.zip.lock.screen.wallpapers.ads.AdPlacement"/>
+        <import type="com.interactive.fitness.ads.AdPlacement"/>
     </data>
 
     <com.google.android.material.card.MaterialCardView

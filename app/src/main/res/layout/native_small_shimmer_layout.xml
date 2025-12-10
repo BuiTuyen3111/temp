@@ -12,7 +12,7 @@
         android:padding="12dp"
         android:layout_height="match_parent">
 
-        <com.zip.lock.screen.wallpapers.widget.UIView
+        <com.interactive.fitness.widget.UIView
             android:id="@+id/UIView5"
             android:layout_width="48dp"
             android:layout_height="48dp"
@@ -35,7 +35,7 @@
             app:layout_constraintTop_toTopOf="@+id/UIView5"
             tools:ignore="SmallSp" />
 
-        <com.zip.lock.screen.wallpapers.widget.UIView
+        <com.interactive.fitness.widget.UIView
             android:layout_width="0dp"
             android:layout_height="16dp"
             android:layout_marginStart="6dp"
@@ -45,7 +45,7 @@
             app:layout_constraintTop_toTopOf="@+id/UIView5"
             app:layout_constraintWidth_percent="0.2" />
 
-        <com.zip.lock.screen.wallpapers.widget.UIView
+        <com.interactive.fitness.widget.UIView
             android:layout_width="0dp"
             android:layout_height="24dp"
             android:layout_marginStart="6dp"
@@ -55,7 +55,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/UIView5" />
 
-        <com.zip.lock.screen.wallpapers.widget.UIView
+        <com.interactive.fitness.widget.UIView
             android:layout_width="match_parent"
             android:layout_marginTop="12dp"
             android:radius="2dp"

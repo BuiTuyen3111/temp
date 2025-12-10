@@ -2,7 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <com.zip.lock.screen.wallpapers.widget.SafeAreaLinearView
+    <com.interactive.fitness.widget.SafeAreaLinearView
         android:layout_width="match_parent"
         android:background="@color/bg_color"
         android:orientation="vertical"
@@ -10,7 +10,7 @@
         android:focusable="true"
         android:layout_height="match_parent">
 
-        <com.zip.lock.screen.wallpapers.widget.HeaderView
+        <com.interactive.fitness.widget.HeaderView
             android:id="@+id/header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -148,5 +148,5 @@
 
         </com.google.android.material.card.MaterialCardView>
 
-    </com.zip.lock.screen.wallpapers.widget.SafeAreaLinearView>
+    </com.interactive.fitness.widget.SafeAreaLinearView>
 </layout>
